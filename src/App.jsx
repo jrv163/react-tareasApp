@@ -26,7 +26,7 @@ export const App = () => {
             </div>
 
             <div className='col-5'>
-                <h4>Agregar Tarea</h4>
+                <h4 className='text'>Agregar Tarea</h4>
                 <hr />
 
               <TodoAdd onNewTodo={ handleNewTodo }/>
